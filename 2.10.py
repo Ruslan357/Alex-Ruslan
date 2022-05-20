@@ -3,7 +3,7 @@ import math
 
 radius = 5
 volume_of_sphere = 4/3 * math.pi * radius
-print(f'The volume of the ball is equal to {round(volume_of_sphere,2)}\n')
+print(f'The volume of the ball is equal to {volume_of_sphere}\n')
 
     #Exercise 2.2
 price = 24.95
@@ -12,9 +12,9 @@ delivery_firs = 3
 delivery_after = 0.75
 number_of_books = 60
 
-total = number_of_books * ((price - (price*discount))) - (delivery_after * (number_of_books - 1) - delivery_firs)
+total = (number_of_books * (price - (price*discount))) - (delivery_after * (number_of_books - 1)) - delivery_firs
 
-print(f'The purchase price of 60 books with delivery is = {round(total,3)}$\n')
+print(f'The purchase price of 60 books with delivery is = {total} $\n')
 
     #Exercise 2.3
 start = (6 * 60 + 52) / 60
