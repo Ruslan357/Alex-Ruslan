@@ -1,6 +1,5 @@
 # This repository contains solutions to Think Python book exercieses
 
-
 ## How to use this repo
 
-* Each chapter represents a folder
+    - Each chapter represents a folder
