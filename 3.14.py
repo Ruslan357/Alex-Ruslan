@@ -1,8 +1,7 @@
                 #Exercise 1 
 
 def right_justify(s):
-    while len(s)!=70:
-        s=' '+s
+    s = ' '*69 + s
     print(s)
 
 right_justify('hello')
