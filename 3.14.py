@@ -7,7 +7,7 @@ def right_justify(s):
 
 right_justify('hello')
 
-
+print("\n\n\n")
                 #Exercise 2.1 
 
 def do_twice(f):
@@ -62,7 +62,7 @@ def print_twice(s):
     print(s + 'spam')
 
 do_four(print_twice, 'spam ')
-
+print("\n\n\n")
                 #Exercise 3
 # 3.1
 
@@ -85,4 +85,39 @@ def square():
     square_part1()
    
 square()
+print("\n\n\n")
 
+                #Exercise 3
+# 3.2
+def square_part1():
+    print('+', '- ' * 4 + '+', '- ' * 4, end="")
+
+def square_part2():
+    print('|', ' ' * 8 + '|', ' ' * 8,end="")
+
+def square_part3():
+    print('+', '- ' * 4 + '|', '- ' * 4,end="")
+
+def square():
+    for i in range(2):
+        square_part1()
+    print('+')
+
+    for i in range(3):
+        for i in range(4):
+            for i in range(2):
+                square_part2()
+            print('|')
+
+        for i in range(2):
+            square_part3()
+        print('|')
+    for i in range(4):
+            for i in range(2):
+                square_part2()
+            print('|')
+    for i in range(2):
+        square_part1()
+    print('+')
+
+square()
