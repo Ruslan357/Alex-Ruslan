@@ -1,4 +1,5 @@
                 #Exercise 1 
+import swampy
 
 def right_justify(s):
     s = ' '*69 + s
