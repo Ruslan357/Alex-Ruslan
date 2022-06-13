@@ -1,8 +1,7 @@
                 #Exercise 1 
-import swampy
 
 def right_justify(s):
-    s = ' '*69 + s
+    s = ' '*(70-len(s)) + s
     print(s)
 
 right_justify('hello')
