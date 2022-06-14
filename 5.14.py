@@ -56,8 +56,9 @@ is_triangle(12,1,1)
 
 # 4.2
 def recurse(n, s):
-    """ n,s - variables that change their values during a recursive function call. 
-        The function outputs the value of c when the value of n reaches 0
+    """ The function outputs the value of c when the value of n reaches 0
+    
+        n,s - variables that change their values during a recursive function call. 
     """
     if n == 0:
         print(s)
