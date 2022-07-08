@@ -1,6 +1,6 @@
 def any_lowercase1(s):
     '''
-        Detects whether a string contains lowercase letters and returns a bool value
+        Determines whether the first letter of a string is lowercase and returns a Boolean value
     '''
     for c in s:
         if c.islower():
@@ -25,7 +25,7 @@ def any_lowercase2(s):
 
 def any_lowercase3(s):
     '''
-        Returns True value if the last letter in a word is lower
+        Returns the last letter of a string as a lowercase letter
     '''
     for c in s:
         flag = c.islower()
@@ -33,7 +33,7 @@ def any_lowercase3(s):
 
 def any_lowercase4(s):
     '''
-        Returns True value if the last letter in a word is lower
+        Returns False value 
     '''
     flag = False
     for c in s:
@@ -44,7 +44,7 @@ def any_lowercase4(s):
 
 def any_lowercase5(s):
     '''
-        Returns True value if the first letter in a word is lower
+        Returns False if the string contains an uppercase letter
     '''
     for c in s:
         if not c.islower():
